@@ -8,7 +8,7 @@
   <meta name="HandheldFriendly" content="True"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <link rel="stylesheet" type="text/css" href="/assets/built/all.css?v=4a1ae275aa"/>
+  <link rel="stylesheet" type="text/css" href="/assets/built/all.css?v=e9e1a22523"/>
 
   
 
@@ -82,7 +82,7 @@
     <meta name="generator" content="Ghost 4.22" />
     <link rel="alternate" type="application/rss+xml" title="СВТВ Либертарианское СМИ" href="" />
     
-    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=4a1ae275aa">
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=e9e1a22523">
   <link rel="alternate" type="application/rss+xml" title="СВТВ Либертарианское СМИ" href="https://svtv.org/feed/rss/"/>
 </head>
 <body class="post-template tag-news theme-dark">
@@ -446,7 +446,7 @@
 <div class="card-news__content">
   <p class="card-news__category">Новость</p>
   <p class="card-news__title" title="Скоро приговор по «ингушскому делу». Фигурантам грозит до 9 лет тюрьмы">Скоро приговор по «ингушскому делу». Фигурантам грозит до 9 лет тюрьмы</p>
-  <p class="card-news__date">25 минут назад</p>
+  <p class="card-news__date">14 часов назад</p>
 </div>
 </a>            </div>
             <div class="content-slider__slide content-slider__slide--white splide__slide">
@@ -457,7 +457,7 @@
 <div class="card-news__content">
   <p class="card-news__category">Новость</p>
   <p class="card-news__title" title="Чемпионку мира по плаванию обвинили в оскорблении полицейских">Чемпионку мира по плаванию обвинили в оскорблении полицейских</p>
-  <p class="card-news__date">час назад</p>
+  <p class="card-news__date">15 часов назад</p>
 </div>
 </a>            </div>
             <div class="content-slider__slide content-slider__slide--white splide__slide">
@@ -468,7 +468,7 @@
 <div class="card-news__content">
   <p class="card-news__category">Новость</p>
   <p class="card-news__title" title="Бездомного, который сушил носки на «вечном огне», положили в психбольницу">Бездомного, который сушил носки на «вечном огне», положили в психбольницу</p>
-  <p class="card-news__date">2 часа назад</p>
+  <p class="card-news__date">15 часов назад</p>
 </div>
 </a>            </div>
             <div class="content-slider__slide content-slider__slide--white splide__slide">
@@ -479,7 +479,7 @@
 <div class="card-news__content">
   <p class="card-news__category">Новость</p>
   <p class="card-news__title" title="«Блогер Моргенштерн сегодня торгует наркотиками, по сути дела», — Бастрыкин">«Блогер Моргенштерн сегодня торгует наркотиками, по сути дела», — Бастрыкин</p>
-  <p class="card-news__date">3 часа назад</p>
+  <p class="card-news__date">16 часов назад</p>
 </div>
 </a>            </div>
             <div class="content-slider__slide content-slider__slide--white splide__slide">
@@ -490,7 +490,7 @@
 <div class="card-news__content">
   <p class="card-news__category">Новость</p>
   <p class="card-news__title" title="Участников «Левого сопротивления» обвиняют в экстремизме">Участников «Левого сопротивления» обвиняют в экстремизме</p>
-  <p class="card-news__date">3 часа назад</p>
+  <p class="card-news__date">16 часов назад</p>
 </div>
 </a>            </div>
             <div class="content-slider__slide content-slider__slide--white splide__slide">
@@ -501,7 +501,7 @@
 <div class="card-news__content">
   <p class="card-news__category">Новость</p>
   <p class="card-news__title" title="В России запрещена книга «Женщина в Берлине» про изнасилования немок в 1945 году">В России запрещена книга «Женщина в Берлине» про изнасилования немок в 1945 году</p>
-  <p class="card-news__date">3 часа назад</p>
+  <p class="card-news__date">17 часов назад</p>
 </div>
 </a>            </div>
           <div class="content-slider__slide content-slider__slide--white splide__slide">
@@ -543,7 +543,7 @@
 <div class="card-news__content">
   <p class="card-news__category">Новость</p>
   <p class="card-news__title" title="Скоро приговор по «ингушскому делу». Фигурантам грозит до 9 лет тюрьмы">Скоро приговор по «ингушскому делу». Фигурантам грозит до 9 лет тюрьмы</p>
-  <p class="card-news__date">25 минут назад</p>
+  <p class="card-news__date">14 часов назад</p>
 </div>
 </a>      </div>
       <div class="block-cards__item">
@@ -554,7 +554,7 @@
 <div class="card-news__content">
   <p class="card-news__category">Новость</p>
   <p class="card-news__title" title="Чемпионку мира по плаванию обвинили в оскорблении полицейских">Чемпионку мира по плаванию обвинили в оскорблении полицейских</p>
-  <p class="card-news__date">час назад</p>
+  <p class="card-news__date">15 часов назад</p>
 </div>
 </a>      </div>
       <div class="block-cards__item">
@@ -565,7 +565,7 @@
 <div class="card-news__content">
   <p class="card-news__category">Новость</p>
   <p class="card-news__title" title="Бездомного, который сушил носки на «вечном огне», положили в психбольницу">Бездомного, который сушил носки на «вечном огне», положили в психбольницу</p>
-  <p class="card-news__date">2 часа назад</p>
+  <p class="card-news__date">15 часов назад</p>
 </div>
 </a>      </div>
       <div class="block-cards__item">
@@ -576,7 +576,7 @@
 <div class="card-news__content">
   <p class="card-news__category">Новость</p>
   <p class="card-news__title" title="«Блогер Моргенштерн сегодня торгует наркотиками, по сути дела», — Бастрыкин">«Блогер Моргенштерн сегодня торгует наркотиками, по сути дела», — Бастрыкин</p>
-  <p class="card-news__date">3 часа назад</p>
+  <p class="card-news__date">16 часов назад</p>
 </div>
 </a>      </div>
       <div class="block-cards__item">
@@ -587,7 +587,7 @@
 <div class="card-news__content">
   <p class="card-news__category">Новость</p>
   <p class="card-news__title" title="Участников «Левого сопротивления» обвиняют в экстремизме">Участников «Левого сопротивления» обвиняют в экстремизме</p>
-  <p class="card-news__date">3 часа назад</p>
+  <p class="card-news__date">16 часов назад</p>
 </div>
 </a>      </div>
       <div class="block-cards__item">
@@ -598,7 +598,7 @@
 <div class="card-news__content">
   <p class="card-news__category">Новость</p>
   <p class="card-news__title" title="В России запрещена книга «Женщина в Берлине» про изнасилования немок в 1945 году">В России запрещена книга «Женщина в Берлине» про изнасилования немок в 1945 году</p>
-  <p class="card-news__date">3 часа назад</p>
+  <p class="card-news__date">17 часов назад</p>
 </div>
 </a>      </div>
     <a href="/news/" class="block-cards__button">Посмотреть всё</a>
@@ -667,7 +667,7 @@
   </div>
 
 </div>
-<script src="/assets/built/js/app.js?v=4a1ae275aa"></script>
+<script src="/assets/built/js/app.js?v=e9e1a22523"></script>
 
       <script>
         document.addEventListener('DOMContentLoaded', () => {
