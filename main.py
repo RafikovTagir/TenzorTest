@@ -87,7 +87,7 @@ class MyHtmlParser(HTMLParser):
                 self.inside_white_list_tag = False
 
     def handle_data(self, data):
-        if not self._inside_footer:
+        if not self._inside_footer:                     #По хорошему надо проверять не закончился ли футер, но с чего бы вдруг после футера будет идти хоть что-то важное?
             if self.inside_white_list_tag:
                 if self.paragraph_needed:
                     self._current_paragraph += "\n\n"
