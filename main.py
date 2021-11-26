@@ -3,6 +3,7 @@
 
 import requests
 import os
+import textwrap
 
 from urllib.parse import urlparse
 from html.parser import HTMLParser
@@ -31,6 +32,12 @@ class MyHtmlParser(HTMLParser):
     a_tag_href = ""
     paragraph_needed = False
     hyperlink_needed = False
+    _current_paragraph = ""
+    _list_of_paragraph = []
+
+    def list_of_paragraph_getter(self):
+        return self._list_of_paragraph
+
 
     def is_inside_white_list_tag(self, current_tag=""):
         if current_tag in White_List_Tag:
@@ -50,7 +57,7 @@ class MyHtmlParser(HTMLParser):
                 self.a_tag_encountered = True
                 for name, value in attrs:
                     if name == "href":
-                        self.a_tag_href = " [" + value + "]"
+                        self.a_tag_href = f" [{value}]"
 
 
     def handle_endtag(self, tag):
@@ -58,19 +65,22 @@ class MyHtmlParser(HTMLParser):
             if tag == "a" and self.a_tag_encountered:
                 self.a_tag_encountered == False
                 self.hyperlink_needed = True
+            if tag == "p":
+                self._list_of_paragraph.append(self._current_paragraph)
+                self._current_paragraph = ""
             if tag in White_List_Tag:
                 self.inside_white_list_tag = False
 
     def handle_data(self, data):
         if self.inside_white_list_tag:
             if self.paragraph_needed:
-                self.result_string += "\n\n"
+                self._current_paragraph += "\n\n"
                 self.paragraph_needed = False
             if self.hyperlink_needed:
-                self.result_string += self.a_tag_href
+                self._current_paragraph += self.a_tag_href
                 self.hyperlink_needed = False
             print("Encountered some data  :", data)
-            self.result_string += data
+            self._current_paragraph += data
 
 
 if __name__ == '__main__':
@@ -81,9 +91,20 @@ parser.feed(text_of_page)
 
 #parser.result_string
 
+
+#output_string = textwrap.fill(parser.result_string, 80, replace_whitespace = False)
+
+
+#output_string = parser.list_of_paragraph_getter()
+
+output_string = ""
+
+for x in parser.list_of_paragraph_getter():
+    output_string += x
+
 if not os.path.exists(Filename):
     os.makedirs(Filename)
 with open(Filename + ".txt", 'w', encoding='utf-8') as f:
-    f.write(parser.result_string)
+    f.write(output_string)
 with open(Filename + "RAW.txt", 'w', encoding='utf-8') as f:
     f.write(text_of_page)
